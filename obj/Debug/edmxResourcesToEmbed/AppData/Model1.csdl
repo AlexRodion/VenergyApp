@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ConditionObject">
+    <Key>
+      <PropertyRef Name="IdWriting" />
+    </Key>
+    <Property Name="IdWriting" Type="Int32" Nullable="false" />
+    <Property Name="idStation" Type="Int32" />
+    <Property Name="idObject" Type="Int32" />
+    <Property Name="Condition" Type="Decimal" Precision="1" Scale="0" />
+  </EntityType>
+  <EntityType Name="Objects">
+    <Key>
+      <PropertyRef Name="ObjectID" />
+    </Key>
+    <Property Name="ObjectID" Type="Int32" Nullable="false" />
+    <Property Name="NameObject" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Name="NameStation" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Stations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name_Station" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Workers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FIO" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="Qualification" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="Database1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ConditionObject" EntityType="Self.ConditionObject" />
+    <EntitySet Name="Objects" EntityType="Self.Objects" />
+    <EntitySet Name="Stations" EntityType="Self.Stations" />
+    <EntitySet Name="Workers" EntityType="Self.Workers" />
+    <EntitySet Name="ObjectType" EntityType="Database1Model.ObjectType" />
+  </EntityContainer>
+  <EntityType Name="ObjectType">
+    <Key>
+      <PropertyRef Name="IdType" />
+    </Key>
+    <Property Name="IdType" Type="Int32" Nullable="false" />
+    <Property Name="TypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FaseAmount" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>
