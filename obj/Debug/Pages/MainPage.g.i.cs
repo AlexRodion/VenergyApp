@@ -136,27 +136,75 @@ namespace VenergyApp.Pages {
             {
             case 1:
             this.Statbtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 12 "..\..\..\Pages\MainPage.xaml"
+            this.Statbtn.Click += new System.Windows.RoutedEventHandler(this.Statbtn_Click);
+            
+            #line default
+            #line hidden
             return;
             case 2:
             this.Objectsbtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 13 "..\..\..\Pages\MainPage.xaml"
+            this.Objectsbtn.Click += new System.Windows.RoutedEventHandler(this.Objectsbtn_Click);
+            
+            #line default
+            #line hidden
             return;
             case 3:
             this.Obtypbtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 14 "..\..\..\Pages\MainPage.xaml"
+            this.Obtypbtn.Click += new System.Windows.RoutedEventHandler(this.Obtypbtn_Click);
+            
+            #line default
+            #line hidden
             return;
             case 4:
             this.Infbtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 15 "..\..\..\Pages\MainPage.xaml"
+            this.Infbtn.Click += new System.Windows.RoutedEventHandler(this.Infbtn_Click);
+            
+            #line default
+            #line hidden
             return;
             case 5:
             this.cndobtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 16 "..\..\..\Pages\MainPage.xaml"
+            this.cndobtn.Click += new System.Windows.RoutedEventHandler(this.cndobtn_Click);
+            
+            #line default
+            #line hidden
             return;
             case 6:
             this.wrbtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 17 "..\..\..\Pages\MainPage.xaml"
+            this.wrbtn.Click += new System.Windows.RoutedEventHandler(this.wrbtn_Click);
+            
+            #line default
+            #line hidden
             return;
             case 7:
             this.degr = ((System.Windows.Controls.Button)(target));
+            
+            #line 18 "..\..\..\Pages\MainPage.xaml"
+            this.degr.Click += new System.Windows.RoutedEventHandler(this.degr_Click);
+            
+            #line default
+            #line hidden
             return;
             case 8:
             this.repbtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 19 "..\..\..\Pages\MainPage.xaml"
+            this.repbtn.Click += new System.Windows.RoutedEventHandler(this.repbtn_Click);
+            
+            #line default
+            #line hidden
             return;
             case 9:
             

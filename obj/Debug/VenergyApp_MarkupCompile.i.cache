@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\student.COMP3\Desktop\Родионов УП 04.01\VenergyApp\VenergyApp\App.xaml
-51577628730
+13-183521821
 4-1171490079
-20-1698285526
+281091973785
 18-1415551895
-MainWindow.xaml;Pages\EnterPage.xaml;Pages\MainPage.xaml;Pages\RegisPage.xaml;Pages\StartPage.xaml;
+MainWindow.xaml;Pages\ConditionObjectPage.xaml;Pages\DegrPage.xaml;Pages\EnterPage.xaml;Pages\InfoPrPage.xaml;Pages\MainPage.xaml;Pages\ObjectsPage.xaml;Pages\ObjtypesPage.xaml;Pages\RegisPage.xaml;Pages\RepPage.xaml;Pages\StartPage.xaml;Pages\StationsPage.xaml;Pages\WorkersPage.xaml;
 
 True
 

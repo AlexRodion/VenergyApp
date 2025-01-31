@@ -51,7 +51,7 @@ namespace VenergyApp.Pages {
         
         #line 15 "..\..\..\Pages\EnterPage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox Lognbox;
+        internal System.Windows.Controls.TextBox lognbox;
         
         #line default
         #line hidden
@@ -59,7 +59,7 @@ namespace VenergyApp.Pages {
         
         #line 16 "..\..\..\Pages\EnterPage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox Passwrdbox;
+        internal System.Windows.Controls.PasswordBox Passwrdbox;
         
         #line default
         #line hidden
@@ -104,16 +104,16 @@ namespace VenergyApp.Pages {
             #line hidden
             return;
             case 2:
-            this.Lognbox = ((System.Windows.Controls.TextBox)(target));
+            this.lognbox = ((System.Windows.Controls.TextBox)(target));
             
             #line 15 "..\..\..\Pages\EnterPage.xaml"
-            this.Lognbox.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.TextBox_TextChanged);
+            this.lognbox.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.TextBox_TextChanged);
             
             #line default
             #line hidden
             return;
             case 3:
-            this.Passwrdbox = ((System.Windows.Controls.TextBox)(target));
+            this.Passwrdbox = ((System.Windows.Controls.PasswordBox)(target));
             return;
             }
             this._contentLoaded = true;

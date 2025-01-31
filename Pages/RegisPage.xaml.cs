@@ -31,8 +31,8 @@ namespace VenergyApp.Pages
         private void regisbtn_Click(object sender, RoutedEventArgs e)
         {
             var login = lgntxt.Text;
-            var password = ssword;
-            var repassword = rpasstxt.Password;
+            var password = Pswrdtxt.Password ;
+            var repassword = rptpswrdtxt.Password;
             string haslog;
             string haspass;
             if (login == string.Empty || password == string.Empty || repassword == string.Empty || password != repassword)
